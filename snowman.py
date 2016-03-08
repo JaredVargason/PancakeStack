@@ -15,9 +15,17 @@ def script():
 		interpret(f)
 
 	f.close()
+
+def tokenize(line)
+	tokens = []	
+	word = ""
+	for (c in line):
+		if  
 		
-#Returns the type of a line by 
-def getLineType(line): #
+		
+#Returns the type of a line  
+def getLineType(line): 
+	
 
 def interpret(line):
 	int line_type = getLineType(line)
@@ -29,10 +37,10 @@ def interpret(line):
 	elif line_type == 1: #variable creation or assignment
 		print("new")			
 	
-	elif line_type == 2: 
-		
+	elif line_type == 2: #push 
+			
 	
-	elif line_type == 3:
+	elif line_type == 3: #pop
 	
 #Run interactive shell
 if (len(sys.argv) == 1):
