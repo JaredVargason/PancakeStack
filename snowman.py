@@ -17,12 +17,14 @@ def script():
 		interpret(f)
 
 	f.close()
-
 		
-		
-'''Returns the type of a line  
-EXIT: 0
-VARIABLE DECLARATION: 1
+'''
+Returns the type of a line.  
+0: EXIT
+1: VARIABLE DECLARATION
+2: PUSH
+3: POP
+4: ADD 
 '''
 def getLineType(tokens): 
 	if len(tokens) == 1: #exit	
